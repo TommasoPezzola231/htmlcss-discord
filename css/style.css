@@ -144,6 +144,10 @@ h2 {
     opacity: 0.1;
 }
 
+#rotate {
+    transform: rotate(180deg);
+}
+
 .GreenBox {
     background-color: #228b22;
     min-height: 800px;
