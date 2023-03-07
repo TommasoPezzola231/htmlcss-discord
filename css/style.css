@@ -111,7 +111,7 @@ p {
 /*********Main***********/
 
 .backgroundGray {
-    background-color: #d3d3d3;
+    background-color: #e6e6e6;
 }
 
 .box {
@@ -119,16 +119,29 @@ p {
     padding-bottom: 3rem;
 }
 
-.BlueBox {
+.BigBox {
     width: 60%;
-    background-color: #1e90ff;
     min-height: 500px;
 }
 
-.PinkBox {
-    width: 40%;
-    background-color: #ffc0cb;
+.SmallBox {
+    width: 40%;;
     min-height: 500px;
+    padding-left: 6em;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 1em;
+}
+
+.wave > img {
+    color: #f6f6f6;
+    width: 100%;
+    display: block;
+    height: 100px;
+    opacity: 0.1;
 }
 
 .GreenBox {
