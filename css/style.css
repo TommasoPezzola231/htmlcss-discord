@@ -11,6 +11,7 @@ header {
     background-color: #add8e6;
     min-height: 100px;
     background-color: #3161e0;
+    font-size: 20px;
 }
 
 .flexContainer {
@@ -22,16 +23,19 @@ header {
     justify-content: space-between;
 }
 
+.aiCenter {
+    align-items: center;
+}
+
 #header1 {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
-
-
 a {
     text-decoration: none;
-    color: black;
+    width: calc(100% / 5);
+    color: white;
 }
 
 .layout {
@@ -54,17 +58,49 @@ a {
     text-align: end;
 }
 
-#header2 {
+button {
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    border-style: none;
+}
+
+#jumbotron {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
-.boxviolet {
-    background-color: #ee82ee;
+.boxjumbotron {
     width: 47%;
     min-height: 400px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 1em;
+}
+
+p {
+    font-size: 19px;
+    line-height: 30px;
+}
+
+#downloadMac {
+   padding: 1em;
+   background-color: white;
+   font-weight: bold;
+   margin: 20px 10px; 
+}
+
+#openinbrowser {
+    padding: 1em;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin: 20px 10px; 
 }
 
 .justifycontentC {
