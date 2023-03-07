@@ -19,6 +19,12 @@ header {
     flex-direction: row;
 }
 
+.flexcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 .justifycontentSB {
     justify-content: space-between;
 }
@@ -34,8 +40,11 @@ header {
 
 a {
     text-decoration: none;
-    width: calc(100% / 5);
     color: white;
+}
+
+span > a {
+    width: calc(100% / 5);
 }
 
 .layout {
@@ -88,14 +97,14 @@ p {
     line-height: 30px;
 }
 
-#downloadMac {
+.downloadMac {
    padding: 1em;
    background-color: white;
    font-weight: bold;
    margin: 20px 10px; 
 }
 
-#openinbrowser {
+.openinbrowser {
     padding: 1em;
     background-color: black;
     color: white;
@@ -149,9 +158,17 @@ h2 {
 }
 
 .GreenBox {
-    background-color: #228b22;
     min-height: 800px;
     width: 100%;
+    text-align: center;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+.bgBlu{
+    background-color: #8ea1e1;
 }
 /********End Main************/
 
@@ -160,27 +177,44 @@ h2 {
 
 footer {
     background-color: #23272a;
+    color: white;
 }
 
-.boxed {
-    padding-top: 1rem;
-    padding-bottom: 2rem;
+h6 {
+    color: #7289da;
+    font-size: 12px;
+    font-size: 19px;
+    margin-bottom: 5px;
 }
 
-.RoseBox {
-    background-color: #f08080;
+#titleFooter {
+    font-size: 35px;
+    margin-bottom: 1em;
+}
+
+img[alt^=Bandiera] {
+    height: 1em;
+    width: 1.5em;
+}
+
+i {
+    margin: 5px;
+}
+
+.bigColumnFooter {
     width: 30%;
-    min-height: 600px;
+    min-height: 400px;
+    padding-top: 100px;
 }
 
-.AquamarineBox {
-    background-color: #20b2aa;
+.smallColumnfooter {
     width: 70%;
-    min-height: 600px;
+    min-height: 400px;
+    padding-top: 100px;
 }
 
 hr {
-    color: white;
+    color: #7289da;
     margin-top: 2rem;
     margin-bottom: 1.5rem;
 }
@@ -201,4 +235,8 @@ hr {
 #bottoneFooter {
     background-color: #ffb6c1;
     padding: 0.5rem;
+}
+
+h6 ~ a {
+    margin: 5px 0;
 }
