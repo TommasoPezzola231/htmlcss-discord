@@ -223,20 +223,17 @@ hr {
     width: calc(100% / 4);
 }
 
-.backgroundfooter {
-    background-color: #7fffd4;
-}
-
 #logoFooter {
     background-color: #ffb6c1;
     padding: 0.5rem;
 }
 
-#bottoneFooter {
-    background-color: #ffb6c1;
-    padding: 0.5rem;
-}
 
 h6 ~ a {
     margin: 5px 0;
+}
+
+.registrati {
+    color: white;
+    padding: 0.5em 0.5em;
 }
