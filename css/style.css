@@ -1,0 +1,151 @@
+/***************/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/***************/
+/********Header*********/
+header {
+    background-color: #add8e6;
+    min-height: 100px;
+    background-color: #3161e0;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.justifycontentSB {
+    justify-content: space-between;
+}
+
+#header1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.layout {
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 0.5em;
+}
+
+#logo {
+    width: calc(100% / 5);
+}
+
+#link {
+    width: calc((100% / 5) * 3);
+    text-align: center;
+}
+
+#login {
+    width: calc(100% / 5);
+    text-align: end;
+}
+
+#header2 {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.boxviolet {
+    background-color: #ee82ee;
+    width: 47%;
+    min-height: 400px;
+}
+
+.justifycontentC {
+    justify-content: center;
+}
+/********End Header*********/
+
+/*********Main***********/
+
+.backgroundGray {
+    background-color: #d3d3d3;
+}
+
+.box {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.BlueBox {
+    width: 60%;
+    background-color: #1e90ff;
+    min-height: 500px;
+}
+
+.PinkBox {
+    width: 40%;
+    background-color: #ffc0cb;
+    min-height: 500px;
+}
+
+.GreenBox {
+    background-color: #228b22;
+    min-height: 800px;
+    width: 100%;
+}
+/********End Main************/
+
+/********Footer***********/
+
+
+footer {
+    background-color: #23272a;
+}
+
+.boxed {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.RoseBox {
+    background-color: #f08080;
+    width: 30%;
+    min-height: 600px;
+}
+
+.AquamarineBox {
+    background-color: #20b2aa;
+    width: 70%;
+    min-height: 600px;
+}
+
+hr {
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.columnfooter {
+    width: calc(100% / 4);
+}
+
+.backgroundfooter {
+    background-color: #7fffd4;
+}
+
+#logoFooter {
+    background-color: #ffb6c1;
+    padding: 0.5rem;
+}
+
+#bottoneFooter {
+    background-color: #ffb6c1;
+    padding: 0.5rem;
+}
